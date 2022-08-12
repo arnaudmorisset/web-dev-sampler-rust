@@ -1,6 +1,6 @@
 use actix_web::{web, App, HttpServer};
 use sqlx::SqlitePool;
-use web_sampler::routes::{about, hello, hello_static, parse, post, signup};
+use web_sampler::routes::{about, get, hello, hello_static, parse, post, signup};
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
@@ -17,6 +17,7 @@ async fn main() -> std::io::Result<()> {
             .service(signup)
             .service(parse)
             .service(post)
+            .service(get)
     })
     .bind("127.0.0.1:8080")?
     .run()

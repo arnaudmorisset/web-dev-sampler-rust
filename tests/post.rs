@@ -1,5 +1,6 @@
 use actix_web::{test, web, App};
 use sqlx::SqlitePool;
+use uuid::Uuid;
 use web_sampler::routes::{post, Post};
 
 #[actix_web::test]
@@ -9,6 +10,7 @@ async fn test_post() {
         .expect("Failed to create connection pool");
 
     let new_post = Post {
+        id: Uuid::new_v4().to_string(),
         title: String::from("Lorem Ipsum"),
     };
 
