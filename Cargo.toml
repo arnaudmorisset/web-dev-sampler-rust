@@ -3,5 +3,12 @@ name = "web_sampler"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "web_sampler"
+
 [dependencies]
 actix-web = "4.1.0"

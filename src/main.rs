@@ -1,9 +1,5 @@
-use actix_web::{get, App, HttpResponse, HttpServer, Responder};
-
-#[get("/")]
-async fn hello() -> impl Responder {
-    HttpResponse::Ok().body("Hello, World!")
-}
+use actix_web::{App, HttpServer};
+use web_sampler::routes::hello;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
