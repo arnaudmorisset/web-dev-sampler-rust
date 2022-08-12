@@ -1,0 +1,4 @@
+CREATE TABLE posts (
+  id BLOB UNIQUE PRIMARY KEY,
+  title TEXT NOT NULL
+);
