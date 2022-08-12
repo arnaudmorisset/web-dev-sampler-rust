@@ -4,7 +4,7 @@
 
 This repository contains my own take on the [WebDevSampler challenge](https://dev.to/andyhaskell/introducing-the-webdevsampler-challenge-answers-in-go-5cmh), proposed by [&y H. Golang](https://twitter.com/AndyHaskell2013).
 
-I find this kind of exercice quite interesting to learn new languages, libraries, frameworks and so on.
+I find this kind of exercice to be quite interesting to learn new languages, libraries, frameworks and so on.
 
 ## Acknowledgments
 
