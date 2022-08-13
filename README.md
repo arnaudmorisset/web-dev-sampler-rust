@@ -10,7 +10,7 @@ I find this kind of exercice to be quite interesting to learn new languages, lib
 
 Like many, I stand on the shoulders of giants. 🙂
 
-Special thanks to the authors and maintainers of the following libraries:
+Special thanks to the authors and maintainers of the following libraries and tools:
 
 - [actix-web](https://github.com/actix/actix-web)
 - [sanitize_html](https://github.com/andy128k/sanitize-html-rs)
